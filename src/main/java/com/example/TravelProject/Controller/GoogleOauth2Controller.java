@@ -17,7 +17,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/app/oauth")
 @RequiredArgsConstructor
-@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173"}, allowCredentials = "true")
+@CrossOrigin(origins = {"http://192.168.128.126:3000", "http://localhost:3000"}, allowCredentials = "true")
 public class GoogleOauth2Controller {
 
     private final UserRepository userRepository;
